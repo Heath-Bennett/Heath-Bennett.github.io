@@ -1,0 +1,1313 @@
+html, h1, h2, h3, body, main, div, header, footer, ul, ol, p, nav, li{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 25em auto;
+    
+}
+
+main > div > header > h1 {
+    font-size: 300%;
+    font-family:'Arizonia', 'Tangerine', cursive;
+    text-decoration: underline;
+    text-decoration-color:deepskyblue
+    
+}
+main > div > header > h2 {
+    font-size: 230%;
+    font-weight: bolder;
+    font-family: 'Bree Serif', serif;
+    position:fixed;
+    top: 80px;
+    left:85px;
+    
+}
+
+#menu {
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    
+}
+
+#notMenu {
+    padding: 40px;
+    background-image: url(images/blackMarble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:940px;
+    color:white;
+    
+        
+}
+
+#quote {
+    font-size: 250%;
+    text-align: center;
+    padding-top: 40px;
+}
+#indexQuote {
+    position:relative;
+    top:150px;
+    color:white;
+    align-content: center;
+}
+
+#credQuote {
+    position:relative;
+    top:200px;
+}
+#aboutQuote{
+    grid-column-start:1;
+    grid-column-end:3;
+    max-width: inherit;
+    position:relative;
+    top:100px;
+    
+}
+#contactQuote{
+    position:relative;
+    top:100px;
+    left:115px;
+}
+
+#quoteAuthor {
+    font-size: 200%;
+    text-align: center;
+    text-emphasis-style: open;
+    font-style: italic;
+    margin-bottom:20px;
+}
+
+header > ul > li > a:hover {
+    background-color: deepskyblue;
+    color:white;
+}
+
+header > ul > li {
+    font-size: 200%;
+    font-family: 'Bree Serif', serif;
+    list-style: none;
+    margin-right: 35px;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+
+header {
+    position:fixed;
+}
+
+header > ul {
+    position:fixed;
+    top:140px;
+    left:88px;
+}
+
+div > P {
+    position:relative;
+    top:25px;
+    font-size:20px;
+    grid-column-start:1;
+    grid-column-end:3;
+    max-width:inherit;
+}
+
+#pan{
+    grid-column-start:1;
+    grid-column-end:3; 
+    position:relative;
+    left:150px;
+    top:65px;
+    
+}
+#me {
+    position:relative;
+    top:75px;
+    left:350px;
+}
+
+#patriots{
+    position:relative;
+    left:170px;
+    top:110px;
+    
+}
+
+#parkRight{
+    position:relative;
+    left:130px;
+    top:110px;
+}
+
+footer > ul {
+    position:fixed;
+    top:900px;
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    list-style: none;
+}
+
+form {
+    background-color:white;
+    color:black;
+    max-width:900px;
+    height:500px;
+    position: relative;
+    left:230px;
+    top:20px;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+fieldset {
+    margin: 10px;
+    font-size:22px;
+    border-color:deepskyblue;
+    border-width: medium;
+}
+legend {
+    font-size:36px;
+}
+
+input, label {
+    display: block;
+    margin:5px;
+    
+}
+
+#lName {
+    position: relative;
+    left:300px;
+    top:-45px;
+}
+#fName{
+    position: relative;
+    top:10px;
+}
+
+#msg {
+    position: relative;
+    top:-20px;
+}
+
+#submit {
+    position:relative;
+    top:-30px;
+    left:200px;
+}
+
+
+#eMail {
+    position: relative;
+    top:-5px;
+}
+
+#splitNotMenu{
+    display: grid;
+    grid-template-columns: auto auto;
+    position:relative;
+}
+
+input:focus, textarea:focus {
+    background-color: deepskyblue;
+    color:white;
+}
+
+.pic:hover {
+    border: 2px solid deepskyblue;
+}
+
+#techSkills {
+    position:relative;
+    top:150px;
+    left:130px;
+    font-size:20px;
+    width:550px; 
+}
+
+#jobSkills {
+    position: relative;
+    top:150px;
+    left:130px;
+    font-size:20px;
+    width:550px;
+}
+
+#techSkills > ul > li {
+    list-style:none;
+    
+}
+#techSkills > ul > li::before {
+    content:"\2666";
+    color:deepskyblue;
+    font-weight:bold;
+    display:inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#jobSkills > ul > li {
+    list-style:none;
+}
+
+#jobSkills > ul > li::before {
+    content:"\2666";
+    color:deepskyblue;
+    font-weight:bold;
+    display:inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+h3 {
+    font-size: 24px;
+    margin:5px;
+    text-decoration:underline;
+    text-decoration-color:deepskyblue;
+}
+
+@media all and (max-width: 1400px){
+    #quote {
+    font-size: 150%;
+    
+    }
+    #contactQuote{
+        position:relative;
+        top:0px;
+        left:70px;
+    }
+
+    #quoteAuthor {
+        font-size: 150%;
+        text-align: center;
+        text-emphasis-style: open;
+        font-style: italic;
+        margin-bottom:20px;
+    }
+    
+    #indexQuote {
+        position:relative;
+        top:50px;
+        align-content: center;
+       
+    }
+    
+    #aboutQuote{
+        position:relative;
+        top:80px;
+
+    }
+    
+    #credQuote {
+        position:relative;
+        top:125px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 20em 1120px;
+        overflow: hidden;
+    
+    }
+
+    main > div > header > h1 {
+        font-size: 250%;
+    }
+    
+    main > div > header > h2 {
+        font-size: 200%;
+        position:fixed;
+        top: 65px;
+        left:65px;
+    }
+
+    #menu {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-top: 10%;
+
+    }
+
+    #notMenu {
+        padding: 40px;
+        background-image: url(images/blackMarble.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:580px;
+        color:white;
+        position:relative;
+       
+    }
+
+    header > ul > li {
+        font-size: 150%;
+        position:relative;
+        left:-20px;
+        top:-20px;
+    }
+    
+    footer > ul {
+        position:fixed;
+        top:550px;
+        font-size: 12px;
+    }
+    
+    form {
+        background-color:white;
+        color:black;
+        max-width:650px;
+        height:435px;
+        position: relative;
+        left:150px;
+        top:10px;
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+
+    fieldset {
+        margin: 10px;
+        font-size:16px;
+        border-color:deepskyblue;
+        border-width: medium;
+    }
+    
+    legend {
+        font-size:22px;
+    }
+    
+    #me {
+        position:relative;
+        top:30px;
+        left:240px;
+        height:60%;
+    }
+
+    div > P {
+        position:relative;
+        top:0px;
+        font-size:16px;
+        grid-column-start:1;
+        grid-column-end:3;
+        max-width:950px;
+    }
+    
+    #pan{
+        position:relative;
+        left:135px;
+        top:35px;
+        width:65%;
+    }
+    
+    #patriots{
+        position:relative;
+        left:150px;
+        top:75px;
+        height:159px;
+
+    }
+
+    #parkRight{
+        position:relative;
+        left:50px;
+        top:75px;
+        height:159px;
+    }
+    
+    #techSkills > ul > li {
+        list-style:none;
+        font-size:14px;
+        position:relative;
+        left:-80px;
+        top:-75px;
+
+    }
+    
+    #jobSkills > ul > li {
+        list-style:none;
+        font-size:14px;
+        position:relative;
+        top:-75px;
+        left:-20px;
+    }
+    
+    h3 {
+        font-size:20px;
+        position:relative;
+        top:-75px;
+        
+    }
+    
+    #softTitle {
+        position:relative;
+        left:-25px;
+    }
+    
+    #techTitle {
+        position:relative;
+        left:-85px;
+    }
+    
+    #creds {
+        
+    }
+}
+
+@media all and (max-width: 1100px){
+    #quote {
+    font-size: 175%;
+    
+    }
+    #contactQuote{
+        position:relative;
+        top:50px;
+        left:10px;
+        width:600px;
+    }
+
+    #quoteAuthor {
+        font-size: 150%;
+        text-align: center;
+        text-emphasis-style: open;
+        font-style: italic;
+        margin-bottom:20px;
+    }
+    
+    #indexQuote {
+        position:relative;
+        top:40px;
+        left:0px;
+        align-content: center;
+       
+    }
+    
+    #aboutQuote{
+        position:relative;
+        top:125px;
+        
+
+    }
+    
+    #credQuote {
+        position:relative;
+        top:75px;
+        left:-10px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 20em auto;
+    
+    }
+
+    main > div > header > h1 {
+        font-size: 255%;
+    }
+    
+    main > div > header > h2 {
+        font-size: 200%;
+        position:fixed;
+        top: 70px;
+        left:32px;
+    }
+
+    #menu {
+        margin-left: 10%;
+        margin-right: 20%;
+        padding-top: 10%;
+
+    }
+
+    #notMenu {
+        padding: 40px;
+        background-image: url(images/blackMarble.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:800px;
+        color:white;
+        position:relative;
+       
+    }
+
+    header > ul > li {
+        font-size: 150%;
+        position:relative;
+        left:-55px;
+        top:-20px;
+    }
+    
+    footer > ul {
+        position:fixed;
+        top:650px;
+        font-size: 14px;
+    }
+    
+    form {
+        background-color:white;
+        color:black;
+        max-width:650px;
+        height:435px;
+        position: relative;
+        left:0px;
+        top:10px;
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+
+    fieldset {
+        margin: 10px;
+        font-size:16px;
+        border-color:deepskyblue;
+        border-width: medium;
+    }
+    
+    legend {
+        font-size:22px;
+    }
+    
+    #me {
+        position:relative;
+        top:10px;
+        left:0px;
+        height:60%;
+    }
+
+    div > P {
+        position:relative;
+        top:0px;
+        font-size:16px;
+        grid-column-start:1;
+        grid-column-end:3;
+        max-width:650px;
+    }
+    
+    #pan{
+        position:relative;
+        left:80px;
+        top:35px;
+        width:75%;
+    }
+    
+    #patriots{
+        position:relative;
+        left:50px;
+        top:100px;
+        height:159px;
+
+    }
+
+    #parkRight{
+        position:relative;
+        left:50px;
+        top:100px;
+        height:159px;
+    }
+    
+    #techSkills > ul > li {
+        list-style:none;
+        font-size:14px;
+        position:relative;
+        left:-125px;
+        top:-100px;
+        width:325px;
+
+    }
+    
+    #jobSkills > ul > li {
+        list-style:none;
+        font-size:14px;
+        position:relative;
+        top:-100px;
+        left:-315px;
+        width:325px;
+    }
+    
+    h3 {
+        font-size:20px;
+        position:relative;
+        top:-100px;
+    }
+    
+    #techTitle {
+        position:relative;
+        left:-130px;
+    }
+    
+    #softTitle {
+        position:relative;
+        left:-320px;
+    }
+    
+    
+}
+
+@media all and (max-width: 800px){
+    #quote {
+    font-size: 175%;
+    
+    }
+    #contactQuote{
+        position:relative;
+        top:50px;
+        left:45px;
+        width:600px;
+    }
+
+    #quoteAuthor {
+        font-size: 150%;
+        text-align: center;
+        text-emphasis-style: open;
+        font-style: italic;
+        margin-bottom:20px;
+    }
+    
+    #indexQuote {
+        position:relative;
+        top:60px;
+        left:0px;
+        align-content: center;   
+    }
+    
+    #aboutQuote{
+        position:relative;
+        top:125px;
+        left:0px;
+    }
+    
+    #credQuote {
+        position:relative;
+        top:75px;
+        left:-10px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+
+    main > div > header > h1 {
+        font-size: 200%;
+        position:fixed;
+        top:30px;
+        left:47px;
+    }
+    
+    main > div > header > h2 {
+        font-size:150%;
+        position:fixed;
+        top: 60px;
+        left:50px;
+    }
+
+    #menu {
+        margin-left: 10%;
+        margin-right: 20%;
+        padding-top: 10%;
+        grid-column-start:1;
+        grid-column-end:3;
+        height:40px;
+
+    }
+
+    #notMenu {
+        padding: 40px;
+        background-image: url(images/blackMarble.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:750px;
+        color:white;
+        position:relative;
+        grid-column-start:1;
+        grid-column-end:3;
+        overflow:hidden;   
+    }
+
+    header > ul > li {
+        font-size: 150%;
+        position:relative;
+        left:175px;
+        top:-80px;
+    }
+    
+    header > ul {
+        display:flex;
+        flex-direction:row;
+    }
+    
+    footer > ul {
+        position:fixed;
+        top:950px;
+        left:45px;
+        font-size: 16px;
+        
+    }
+    
+    form {
+        background-color:white;
+        color:black;
+        max-width:650px;
+        height:435px;
+        position: relative;
+        left:20px;
+        top:10px;
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+
+    fieldset {
+        margin: 10px;
+        font-size:16px;
+        border-color:deepskyblue;
+        border-width: medium;
+    }
+    
+    legend {
+        font-size:22px;
+    }
+    
+    #me {
+        position:relative;
+        top:30px;
+        left:50px;
+        height:60%;
+    }
+
+    div > P {
+        position:relative;
+        top:0px;
+        font-size:16px;
+        grid-column-start:1;
+        grid-column-end:3;
+        max-width:800px;
+    }
+    
+    #pan{
+        position:relative;
+        left:85px;
+        top:35px;
+        width:75%;
+    }
+    
+    #patriots{
+        position:relative;
+        left:65px;
+        top:100px;
+        height:159px;
+
+    }
+
+    #parkRight{
+        position:relative;
+        left:50px;
+        top:100px;
+        height:159px;
+    }
+    
+    #techSkills > ul > li {
+        list-style:none;
+        font-size:16px;
+        position:relative;
+        left:-115px;
+        top:-100px;
+        width:325px;
+
+    }
+    
+    #jobSkills > ul > li {
+        list-style:none;
+        font-size:16px;
+        position:relative;
+        top:-100px;
+        left:-305px;
+        width:325px;
+    }
+    
+    h3 {
+        font-size:20px;
+        position:relative;
+        top:-100px;
+    }
+    
+    #techTitle {
+        position:relative;
+        left:-120px;
+    }
+    
+    #softTitle {
+        position:relative;
+        left:-310px;
+    }
+}
+
+@media all and (max-width: 670px){
+    #quote {
+    font-size: 175%;
+    
+    }
+    #contactQuote{
+        position:relative;
+        top:50px;
+        left:-10px;
+        width:600px;
+    }
+
+    #quoteAuthor {
+        font-size: 150%;
+        text-align: center;
+        text-emphasis-style: open;
+        font-style: italic;
+        margin-bottom:20px;
+    }
+    
+    #indexQuote {
+        position:relative;
+        top:60px;
+        left:0px;
+        align-content: center;   
+    }
+    
+    #aboutQuote{
+        position:relative;
+        top:125px;
+        left:0px;
+    }
+    
+    #credQuote {
+        position:relative;
+        top:75px;
+        left:-10px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+
+    main > div > header > h1 {
+        font-size: 150%;
+        position:fixed;
+        top:35px;
+        left:37px;
+    }
+    
+    main > div > header > h2 {
+        font-size:120%;
+        position:fixed;
+        top: 58px;
+        left:36px;
+    }
+
+    #menu {
+        margin-left: 10%;
+        margin-right: 20%;
+        padding-top: 10%;
+        grid-column-start:1;
+        grid-column-end:3;
+        height:40px;
+
+    }
+
+    #notMenu {
+        padding: 40px;
+        background-image: url(images/blackMarble.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:750px;
+        color:white;
+        position:relative;
+        grid-column-start:1;
+        grid-column-end:3;
+        overflow:hidden;   
+    }
+
+    header > ul > li {
+        font-size:125%;
+        position:relative;
+        left:150px;
+        top:-80px;
+    }
+    
+    header > ul {
+        display:flex;
+        flex-direction:row;
+    }
+    
+    footer > ul {
+        position:fixed;
+        top:950px;
+        left:45px;
+        font-size: 16px;
+        
+    }
+    
+    form {
+        background-color:white;
+        color:black;
+        max-width:650px;
+        height:435px;
+        position: relative;
+        left:-5px;
+        top:10px;
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+
+    fieldset {
+        margin: 10px;
+        font-size:16px;
+        border-color:deepskyblue;
+        border-width: medium;
+    }
+    
+    legend {
+        font-size:22px;
+    }
+    
+    #me {
+        position:relative;
+        top:30px;
+        left:50px;
+        height:50%;
+    }
+
+    div > P {
+        position:relative;
+        top:0px;
+        font-size:16px;
+        grid-column-start:1;
+        grid-column-end:3;
+        max-width:800px;
+    }
+    
+    #pan{
+        position:relative;
+        left:75px;
+        top:35px;
+        width:75%;
+    }
+    
+    #patriots{
+        position:relative;
+        left:40px;
+        top:100px;
+        height:159px;
+
+    }
+
+    #parkRight{
+        position:relative;
+        left:35px;
+        top:100px;
+        height:159px;
+    }
+    
+    #techSkills > ul > li {
+        list-style:none;
+        font-size:14px;
+        position:relative;
+        left:-115px;
+        top:-100px;
+        width:325px;
+
+    }
+    
+    #jobSkills > ul > li {
+        list-style:none;
+        font-size:14px;
+        position:relative;
+        top:-100px;
+        left:-300px;
+        width:200px;
+    }
+    
+    h3 {
+        font-size:18px;
+        position:relative;
+        top:-100px;
+    }
+    
+    #techTitle {
+        position:relative;
+        left:-120px;
+    }
+    
+    #softTitle {
+        position:relative;
+        left:-305px;
+    }
+}
+
+@media all and (max-width: 380px){
+    #quote {
+    font-size: 125%;
+    
+    }
+    #contactQuote{
+        position:relative;
+        top:50px;
+        left:-10px;
+        width:325px;
+    }
+
+    #quoteAuthor {
+        font-size: 100%;
+        text-align: center;
+        text-emphasis-style: open;
+        font-style: italic;
+        margin-bottom:20px;
+    }
+    
+    #indexQuote {
+        position:relative;
+        top:60px;
+        left:0px;
+        align-content: center;   
+    }
+    
+    #aboutQuote{
+        position:relative;
+        top:250px;
+        left:0px;
+    }
+    
+    #credQuote {
+        position:relative;
+        top:250px;
+        left:0px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+
+    main > div > header > h1 {
+        font-size: 150%;
+        position:fixed;
+        top:20px;
+        left:20px;
+    }
+    
+    main > div > header > h2 {
+        font-size:120%;
+        position:fixed;
+        top: 42px;
+        left:20px;
+    }
+
+    #menu {
+        margin-left: 10%;
+        margin-right: 20%;
+        padding-top: 10%;
+        grid-column-start:1;
+        grid-column-end:3;
+        height:80px;
+
+    }
+
+    #notMenu {
+        padding: 40px;
+        background-image: url(images/blackMarble.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:750px;
+        color:white;
+        position:relative;
+        grid-column-start:1;
+        grid-column-end:3;
+        overflow:hidden;   
+    }
+
+    header > ul > li {
+        font-size:100%;
+        position:relative;
+        left:-65px;
+        top:-60px;
+    }
+    
+    header > ul {
+        display:flex;
+        flex-direction:row;
+    }
+    
+    footer > ul {
+        position:fixed;
+        top:950px;
+        left:45px;
+        font-size: 16px;
+        
+    }
+    
+    form {
+        background-color:white;
+        color:black;
+        max-width:310px;
+        height:515px;
+        position: relative;
+        left:-5px;
+        top:5px;
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+
+    fieldset {
+        margin: 10px;
+        font-size:16px;
+        border-color:deepskyblue;
+        border-width: medium;
+        height:470px;
+        
+    }
+    
+    input, label {
+        display: block;
+        margin:5px;
+
+    }
+
+    #lName {
+        position: relative;
+        left:0px;
+        top:10px;
+    }
+    #fName{
+        position: relative;
+        top:0px;
+    }
+
+    #msg {
+        position: relative;
+        top:20px;
+    }
+    
+    #msg textarea {
+        height:200px;
+        width:250px;
+    }
+
+    #submit {
+        position:relative;
+        top:30px;
+        left:0px;
+    }
+
+
+    #eMail {
+        position: relative;
+        top:20px;
+    }
+    
+    legend {
+        font-size:22px;
+    }
+    
+    #me {
+        position:relative;
+        top:30px;
+        left:-3px;
+        height:30%;
+    
+    }
+
+    div > P {
+        position:relative;
+        top:0px;
+        font-size:16px;
+        grid-column-start:1;
+        grid-column-end:3;
+        max-width:800px;
+    }
+    
+    #pan{
+        position:relative;
+        left:40px;
+        top:35px;
+        width:75%;
+    }
+    
+    #patriots{
+        position:relative;
+        left:75px;
+        top:80px;
+        height:120px;
+
+    }
+
+    #parkRight{
+        position:relative;
+        left:-90px;
+        top:250px;
+        height:120px;
+    }
+    
+    #techSkills > ul > li {
+        list-style:none;
+        font-size:12px;
+        position:relative;
+        left:-135px;
+        top:105px;
+        width:325px;
+
+    }
+    
+    #jobSkills > ul > li {
+        list-style:none;
+        font-size:12px;
+        position:relative;
+        top:-150px;
+        left:-685px;
+        width:200px;
+    }
+    
+    h3 {
+        font-size:18px;
+        position:relative;
+        top:-100px;
+    }
+    
+    #techTitle {
+        position:relative;
+        left:-137px;
+        top:105px;
+    }
+    
+    #softTitle {
+        position:relative;
+        left:-687px;
+        top:-150px;
+        
+    }
+    
+    #creds > p {
+        font-size:12px;
+        position:relative;
+        top:-25px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
